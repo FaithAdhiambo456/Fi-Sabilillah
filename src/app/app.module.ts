@@ -14,6 +14,11 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatButtonModule} from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './dashboard/home/home.component';
+import { AboutComponent } from './dashboard/about/about.component';
+import { ServicesComponent } from './dashboard/services/services.component';
+import { ContactusComponent } from './dashboard/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +27,11 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     DashboardComponent,
     SignupComponent,
-    LoginComponent
-    
+    LoginComponent,
+    HomeComponent,
+    AboutComponent,
+    ServicesComponent,
+    ContactusComponent  
   ],
   imports: [
     BrowserModule,
@@ -32,7 +40,8 @@ import { FormsModule } from '@angular/forms';
     MatButtonModule,
     MatFormFieldModule,
     MatStepperModule,
-    MatInputModule
+    MatInputModule,
+    HttpClientModule,
   ],
   providers: [
     provideAnimationsAsync()
