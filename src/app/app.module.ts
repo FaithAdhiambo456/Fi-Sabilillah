@@ -14,11 +14,15 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatButtonModule} from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
+<<<<<<< HEAD
+import { NotFoundComponent } from './not-found/not-found.component';
+=======
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './dashboard/home/home.component';
 import { AboutComponent } from './dashboard/about/about.component';
 import { ServicesComponent } from './dashboard/services/services.component';
 import { ContactusComponent } from './dashboard/contactus/contactus.component';
+>>>>>>> 005174a784c4d8563d8495af48ed2e4864d3a870
 
 @NgModule({
   declarations: [
@@ -28,10 +32,15 @@ import { ContactusComponent } from './dashboard/contactus/contactus.component';
     DashboardComponent,
     SignupComponent,
     LoginComponent,
+<<<<<<< HEAD
+    NotFoundComponent
+    
+=======
     HomeComponent,
     AboutComponent,
     ServicesComponent,
     ContactusComponent  
+>>>>>>> 005174a784c4d8563d8495af48ed2e4864d3a870
   ],
   imports: [
     BrowserModule,
